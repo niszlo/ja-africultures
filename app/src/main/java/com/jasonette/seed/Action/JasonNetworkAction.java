@@ -129,9 +129,8 @@ public class JasonNetworkAction {
                             mediaType = MediaType.parse(content_type);
                             d = Base64.decode(options.getString("data"), Base64.DEFAULT);
                         }
-                        Request.Builder requestBuilder = new Request.Builder();
 
-                        request = requestBuilder
+                        request = builder
                                 .url(url)
                                 .method(method, RequestBody.create(mediaType, d))
                                 .build();
