@@ -1,0 +1,25 @@
+{
+    "$jason": {
+        "head": {
+            "title": "Africultures",
+            "actions": {
+                "$foreground": {
+                    "type": "$reload"
+                }
+            }
+        },
+        "body": {
+            "background": {
+                "type": "html",
+                "url": "http://pwa.africultures.com",
+                "style": {
+                    "background": "#ffffff",
+                    "progress" : "rgba(0,0,0,0)"
+                },
+                "action": {
+                    "type": "$default"
+                }
+            }
+        }
+    }
+}
